@@ -18,7 +18,8 @@ body{
   grid-row-gap: 10px;
   background-image: url(../img/background.png);
   background-position: center;
-  background-repeat: repeat-y;
+background-size: cover;
+
 }
 #container .title1{
   grid-row: 1/2;

@@ -17,7 +17,7 @@ body{
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   background-image: url(../img/background.png);
-background-position: left;
+background-position: center;
 }
 #container .title{
   padding: 9px;
@@ -60,20 +60,19 @@ text-align: center;
 #container .movies{
   padding: 9px;
   border-radius: 5px;
+  grid-row: 5/6 ;
+  grid-column: 2/4;
 }
 
 #container .moviest{
   padding: 9px;
   color: blue;
   border-radius: 5px;
+  grid-row: 5/6 ;
+  grid-column: 1/2 ;
 }
 #container .Tornejo{
   padding: 9px;
   border-radius: 5px;
 
-}
-#container .Tornejot{
-  padding: 9px;
-  color: blue;
-  border-radius: 5px;
 }
