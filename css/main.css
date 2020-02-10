@@ -13,10 +13,11 @@ body{
 #container{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+  grid-template-rows: calc(16.66vh - 10px)calc(16.66vh - 10px)calc(16.66vh - 10px)calc(16.66vh - 10px)calc(16.66vh - 10px)calc(16.66vh - 10px) ;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-
+  background-image: url(../img/background.png);
+background-position: left;
 }
 #container .title{
   padding: 9px;
@@ -37,8 +38,6 @@ text-align: center;
 
 #container .season{
   padding: 9px;
-background-image:url(../img/seasons.jpg);
-background-size: cover;
   border-radius: 5px;
   grid-row:3/5;
   grid-column:2/4;
@@ -47,62 +46,34 @@ background-size: cover;
 
 #container .pubgplayers{
   padding: 9px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   border-radius: 5px;
   grid-row: 3/5;
   grid-column: 4/6;
-  background-image: url(../img/pubgplayer.jpg);
 }
 #container .pubgplayerst{
   padding: 9px;
   color: blue;
   border-radius: 5px;
-  grid-row:2/3;
-  grid-column :4/5;
 
 }
 
 #container .movies{
   padding: 9px;
-background-image: url(../img/moviesc.jpeg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
   border-radius: 5px;
-  grid-row: 5/7;
-  grid-column: 2/4;
 }
 
 #container .moviest{
   padding: 9px;
   color: blue;
   border-radius: 5px;
-  grid-row:5/7 ;
-  grid-column:1/2;
 }
 #container .Tornejo{
   padding: 9px;
   border-radius: 5px;
-  background-image: url(../img/star2.jpg);
-  background-position: center;
-  background-size: cover;
-  color: blue;
-  grid-row: 5/7;
-  grid-column: 4/6;
 
 }
 #container .Tornejot{
   padding: 9px;
   color: blue;
-  border-radius: 5px;
-  grid-column: 6/7;
-  grid-row: 5/7;
-}
-
-#container .page4{
-  padding: 9px;
-  background-color:#ff3700;
   border-radius: 5px;
 }
