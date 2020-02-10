@@ -8,25 +8,26 @@ body{
   background-color: #EFEFEF;
   color:white;
   font-size: 22px;;
+  background-image: url(../img/background.png);
+background-position: center;
+  
 }
 
 #container{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
-  grid-template-rows: calc(16.66vh - 10px)calc(16.66vh - 10px)calc(16.66vh - 10px)calc(16.66vh - 10px)calc(16.66vh - 10px)calc(16.66vh - 10px) ;
+  grid-template-rows: calc(16.666vh - 10px)calc(16.666vh - 10px)calc(16.666vh - 10px)calc(16.666vh - 10px)calc(16.666vh - 10px)calc(16.6666vh - 10px)calc(16.6666vh - 10px) ;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  background-image: url(../img/background.png);
-background-position: center;
 }
 #container .title{
   padding: 9px;
-background-color: blue;
+background-color: black;
 border-radius: 5px;
 grid-column: 3/5;
 grid-row: 1/2;
 text-align: center;
-font-size: 50px;
+font-size: 30px;
 }
 #container .seasont{
 color: blue;
@@ -39,7 +40,7 @@ text-align: center;
 #container .season{
   padding: 9px;
   border-radius: 5px;
-  grid-row:3/5;
+  grid-row:2/5;
   grid-column:2/4;
 
 }
@@ -47,7 +48,7 @@ text-align: center;
 #container .pubgplayers{
   padding: 9px;
   border-radius: 5px;
-  grid-row: 3/5;
+  grid-row: 2/5;
   grid-column: 4/6;
 }
 #container .pubgplayerst{
@@ -62,6 +63,9 @@ text-align: center;
   border-radius: 5px;
   grid-row: 5/6 ;
   grid-column: 2/4;
+  background-position: center;
+  background-size:cover;
+
 }
 
 #container .moviest{
@@ -74,5 +78,7 @@ text-align: center;
 #container .Tornejo{
   padding: 9px;
   border-radius: 5px;
+  grid-column: 4/6;
+  grid-row: 5/6;
 
 }
